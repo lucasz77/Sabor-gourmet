@@ -1,0 +1,72 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ebdfc3; /* Cor de fundo clara */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #C6A48A; /* Cor de fundo do cabeçalho */
+    padding: 10px 0; /* Espaçamento interno do cabeçalho */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #8B4513; /* Cor do texto dos links */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #C6A48A; /* Fundo dos links com tonalidade mais escura */
+}
+
+.nav-links a:hover {
+    background-color: #8B4513; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+h1 {
+    color: #8B4513;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #A0522D;
+}
+
+.menu-section {
+    margin-top: 20px; /* Margem superior para espaçamento */
+}
+
+ul {
+    list-style-type: none; /* Remove marcadores das listas */
+    padding-left: 0; /* Remove padding padrão */
+}
+
+ul li {
+    display: flex; /* Usando flexbox para alinhar imagem e texto */
+    align-items: center; /* Alinhamento vertical central */
+    margin-bottom: 15px; /* Espaçamento entre itens da lista */
+}
+
+ul img {
+    width: 150px; /* Aumentei a largura da imagem para melhor visualização */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 15px; /* Espaçamento à direita da imagem */
+}
+
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    margin-top: 40px; /* Margem superior para espaçamento */
+}

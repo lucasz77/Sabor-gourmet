@@ -1,0 +1,87 @@
+      
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ebdfc3; 
+        }
+
+       
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #C6A48A;
+            padding: 10px 0;
+            border-radius: 10px; 
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #8B4513; 
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background-color: #C6A48A; 
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background-color: #8B4513; 
+            color: white; 
+        }
+
+        h1 {
+            color: #8B4513;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #A0522D;
+            font-style: italic;
+            margin-top: 0;
+        }
+
+        .content {
+            display: flex;
+            align-items: center; 
+            justify-content: space-between; 
+            margin-top: 20px; 
+        }
+
+        .text-section {
+            flex-basis: 50%; 
+            padding-right: 20px; 
+            background-color: #C6A48A;
+            border-radius: 10px; 
+            padding: 20px; 
+        }
+
+        .banner {
+            background-image: url('Fundo.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px; 
+            width: 50%; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+        }
+
+        p {
+            line-height: 1.6; 
+            color: #654321;
+        }
+
+        footer {
+            text-align: center; 
+            margin-top: 40px; 
+            font-size: 0.9em; 
+            color: #8B4513;
+        }

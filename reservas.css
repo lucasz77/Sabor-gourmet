@@ -1,0 +1,97 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f5e7; /* Fundo claro e elegante */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #C6A48A; /* Fundo do cabeçalho */
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #8B4513; /* Cor do texto dos links */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #C6A48A; /* Fundo dos links */
+}
+
+.nav-links a:hover {
+    background-color: #8B4513; /* Cor ao passar o mouse */
+    color: white;
+}
+
+h1 {
+    color: #8B4513;
+    font-size: 3em;
+}
+
+h2 {
+    color: #A0522D;
+}
+
+/* Estilos para a seção de reservas */
+.reservation-section {
+    background-color: #FFF8E7; /* Fundo suave para o formulário */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    gap: 20px; /* Espaçamento entre os elementos */
+}
+
+label {
+    font-weight: bold; /* Destaca os rótulos dos campos */
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="number"],
+textarea {
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: 1px solid #8B4513; /* Borda com cor suave */
+    font-size: 1em; /* Tamanho da fonte */
+}
+
+textarea {
+    resize: none; /* Impede redimensionamento manual do campo de texto */
+}
+
+button {
+    padding: 15px; /* Espaçamento interno do botão */
+    background-color: #C6A48A; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    font-size: 1.2em; /* Tamanho da fonte do botão */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: #8B4513; /* Cor ao passar o mouse sobre o botão */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
