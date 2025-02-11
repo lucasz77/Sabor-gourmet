@@ -4,13 +4,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f5e7; /* Fundo claro e elegante */
+    background-color: #f9f5e7; 
 }
 
 header {
     text-align: center;
     margin-bottom: 20px;
-    background-color: #C6A48A; /* Fundo do cabeçalho */
+    background-color: #C6A48A; 
     padding: 10px 0;
     border-radius: 10px;
 }
@@ -77,10 +77,10 @@ textarea {
 }
 
 button {
-    padding: 15px; /* Espaçamento interno do botão */
-    background-color: #C6A48A; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
-    font-size: 1.2em; /* Tamanho da fonte do botão */
+    padding: 15px; 
+    background-color: #C6A48A; 
+    color: white; 
+    font-size: 1.2em; 
     border-radius: 10px; /* Bordas arredondadas */
     border: none; /* Remove borda padrão */
     cursor: pointer; /* Muda o cursor ao passar sobre o botão */

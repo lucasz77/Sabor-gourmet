@@ -45,21 +45,21 @@ h2 {
 }
 
 .contact-section {
-    display: flex; /* Usando flexbox para organizar os elementos lado a lado */
-    justify-content: space-between; /* Espaçamento entre os elementos */
-    margin-top: 20px; /* Margem superior para espaçamento */
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px; 
 }
 
 .contact-info {
-    flex-basis: 60%; /* Ocupa 60% do espaço disponível */
+    flex-basis: 60%; 
 }
 
 .map-container {
-    flex-basis: 35%; /* Ocupa 35% do espaço disponível */
+    flex-basis: 35%; 
 }
 
-/* Estilo para o iframe do Google Maps */
+
 iframe {
-    width: 100%; /* Largura total do iframe */
-    height: auto; /* Altura automática para manter a proporção */
+    width: 100%; 
+    height: auto; 
 }
